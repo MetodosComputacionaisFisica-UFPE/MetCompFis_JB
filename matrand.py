@@ -12,9 +12,9 @@ def gerador(N):
         M (np.array): matriz aleatória N-por-N.
     """
 
-    ########################
-    #### Completar aqui ####
-    ########################
+    M = np.random.rand(N, N)
+    M = np.round(M).astype(int)
+    return M
     
     return M
 
@@ -31,9 +31,7 @@ def media(M):
         media (float): média sobre todos os elementos da matriz.
     """
 
-    ########################
-    #### Completar aqui ####
-    ########################
+    media = np.mean(M)
     
     return media
 
@@ -44,3 +42,5 @@ if __name__ == "__main__":
     M = gerador(N)
     print("A matriz gerada é:\n",M)
     print("A sua média é:",media(M))
+    
+
