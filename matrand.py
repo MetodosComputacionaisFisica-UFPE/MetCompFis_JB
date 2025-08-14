@@ -14,7 +14,6 @@ def gerador(N):
 
     M = np.random.rand(N, N)
     M = np.round(M).astype(int)
-    return M
     
     return M
 
@@ -43,4 +42,5 @@ if __name__ == "__main__":
     print("A matriz gerada é:\n",M)
     print("A sua média é:",media(M))
     
+
 
