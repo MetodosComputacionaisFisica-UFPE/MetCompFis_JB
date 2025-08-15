@@ -14,7 +14,6 @@ def gerador(N):
 
     M = np.random.rand(N, N)
     M = np.round(M).astype(int)
-    return M
     
     return M
 
